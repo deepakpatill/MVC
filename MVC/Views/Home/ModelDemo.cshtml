@@ -1,0 +1,30 @@
+﻿@model MVC.Models.Employee
+
+@{
+    ViewBag.Title = "ModelDemo";
+}
+
+<h2>ModelDemo</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+<table>
+    <tr>
+        <td>
+            Employee ID:
+        </td>
+        <td>
+            @Model.EmployeeId
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Name:
+        </td>
+        <td>
+            @Model.name
+        </td>
+    </tr>
+</table>
+</div>
